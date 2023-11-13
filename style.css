@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(pxfuel\ \(1\).jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.container,.container2,.container3{
+    width:360px;
+    height: 700px;
+    margin: 8px,auto;
+    border-radius: 5px;
+    background: #fff;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform:translate(-50%,-50%); 
+     transition: 0.5s; 
+    overflow: hidden;
+ }
+
+ h3{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #000000;
+ }
+
+ .container form,#Form2,#Form3{
+    width: 280px;
+    height: 350px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5%;
+    backdrop-filter: blur(10px);
+ }
+
+ form input{
+    width: 100%;
+    padding: 10px 0px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #000000;
+    outline: none;
+    background: transparent;
+   
+ }
+
+ ::placeholder{
+    color: #000000;
+ }
+
+ .btn-box{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+ }
+
+form button{
+    width: 110px;
+    height: 35px;
+    margin: 0 10px;
+    background: linear-gradient(to right, #ff105f,#ca5f0d);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+.container{
+    background-image: url(doc1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.container2{
+    left: 650px;
+    background-image: url(doc2.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.container3{
+    background-image: url(doc3.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    left: -300px;
+}
